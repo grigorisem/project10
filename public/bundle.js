@@ -1,0 +1,1 @@
+(()=>{"use strict";(async()=>{let a=await await(async()=>await(await(async()=>fetch("https://run.mocky.io/v3/a27db518-069d-45a3-8fac-938b5c2228d1"))()).json())();return a.forEach((a=>{a.sallary=parseFloat(String(a.sallary)),a.isActive&&(a.sallary+=a.sallary/100*10)})),a})().then((a=>{console.log(a)})).catch((a=>{console.log(a)}))})();
