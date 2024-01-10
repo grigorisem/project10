@@ -14,6 +14,7 @@ const addData = async () => {
             employee.sallary += (employee.sallary / 100) * 10;
         }
     })
+    users.sort((a, b) => b.sallary - a.sallary)
     return users;
 }
 addData()
